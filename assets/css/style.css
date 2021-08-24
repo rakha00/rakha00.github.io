@@ -1,0 +1,21 @@
+.hero,
+.whatIDo,
+.recentWork,
+.collab,
+.footer {
+  padding-top: 7em;
+}
+
+.aboutMe {
+  padding-top: 16em;
+}
+
+.title {
+  font-size: 2.5em;
+  font-family: "Space Mono", monospace;
+}
+
+.hero h1 {
+  font-size: 6em;
+  font-family: "Space Mono", monospace;
+}
