@@ -4,49 +4,72 @@
   font-family: "Space Mono", monospace;
 }
 
-.aboutMe h1 {
+.aboutMe h1,
+.whatIDo h1,
+.recentWork h1,
+.collab h1 {
   font-family: "Staatliches", cursive;
 }
 
-.aboutMe p {
+.aboutMe p,
+.whatIDo p,
+.collab p {
   font-family: "Cutive Mono", monospace;
+}
+
+.collab span {
+  font-family: "Bubblegum Sans", cursive;
+}
+
+.whatIDo h1,
+.recentWork h1,
+.collab h1 {
+  font-size: 10rem;
+}
+
+.hero h1,
+.aboutMe h1,
+h2 {
+  font-size: 5rem;
 }
 
 .title {
   font-size: 2.5em;
 }
 
-.hero h1 {
-  font-size: 5rem;
-}
-
-.aboutMe h1,
-h2 {
-  font-size: 4rem;
-}
-
-.aboutMe p {
+.aboutMe p,
+.whatIDo p,
+.collab p,
+.collab span {
   font-size: 1.5rem;
 }
 
 /* Spacing */
+.aboutMe {
+  padding-top: 20em;
+}
+
 .whatIDo,
-.recentWork,
-.collab,
-.footer {
-  padding-top: 8em;
+.collab {
+  padding-top: 15em;
+  padding-bottom: 5em;
+}
+
+.recentWork {
+  padding-top: 15em;
 }
 
 .hero {
   padding-top: 5em;
 }
 
-.aboutMe {
-  padding-top: 20em;
+.footer {
+  padding-top: 3em;
 }
 
-/* Breakpoint */
+/* Form Styles */
 
+/* Breakpoint */
 @media (max-width: 991.98px) {
   .hero h1 {
     font-size: 4rem;
