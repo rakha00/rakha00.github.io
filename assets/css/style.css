@@ -1,21 +1,49 @@
-.hero,
-.whatIDo,
-.recentWork,
-.collab,
-.footer {
-  padding-top: 7em;
-}
-
-.aboutMe {
-  padding-top: 16em;
+/* Fonts */
+.title,
+.hero {
+  font-family: "Space Mono", monospace;
 }
 
 .title {
   font-size: 2.5em;
-  font-family: "Space Mono", monospace;
 }
 
-.hero h1 {
-  font-size: 6em;
-  font-family: "Space Mono", monospace;
+.hero-caption {
+  font-size: 5rem;
+}
+
+/* Spacing */
+.whatIDo,
+.recentWork,
+.collab,
+.footer {
+  padding-top: 8em;
+}
+
+.hero {
+  padding-top: 5em;
+}
+
+.aboutMe {
+  padding-top: 20em;
+}
+
+/* Breakpoint */
+
+@media (max-width: 991.98px) {
+  .hero-caption {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-caption {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-caption {
+    font-size: 2rem;
+  }
 }
