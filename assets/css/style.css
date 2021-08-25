@@ -69,7 +69,7 @@ h2 {
 }
 
 .hero {
-  padding-top: 5em;
+  padding-top: 10vh;
 }
 
 .footer {
@@ -108,27 +108,54 @@ h2 {
 
 /* Breakpoint */
 @media (max-width: 1399.98px) {
-  .hero h1 {
-    font-size: 4rem;
-  }
-  .title {
-    font-size: 1.5rem;
-  }
 }
+
 @media (max-width: 1199.98px) {
 }
 
 @media (max-width: 991.98px) {
-  .hero h1 {
-    font-size: 3rem;
-  }
 }
 
 @media (max-width: 767.98px) {
 }
 
 @media (max-width: 575.98px) {
-  .hero h1 {
+  .title {
     font-size: 1.5rem;
+  }
+
+  .bg-transparent {
+    background-color: #ffffff !important;
+  }
+
+  .navbar {
+    border-bottom: 3px solid #212529;
+  }
+
+  .hero h1 {
+    font-size: 1.3rem;
+  }
+
+  .hero {
+    padding-top: 15vh;
+  }
+
+  .aboutMe {
+    padding-top: 14em;
+  }
+
+  .aboutMe h1,
+  h2,
+  .whatIDo h1,
+  .recentWork h1,
+  .collab h1 {
+    font-size: 2rem;
+  }
+
+  .aboutMe p,
+  .whatIDo p,
+  .collab p,
+  .collab span {
+    font-size: 1rem;
   }
 }
