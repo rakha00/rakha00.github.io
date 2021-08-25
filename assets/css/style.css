@@ -1,13 +1,16 @@
 /* Fonts */
 .title,
-.hero {
+.hero,
+.navbar h3 {
   font-family: "Space Mono", monospace;
 }
 
+.menu span,
 .aboutMe h1,
 .whatIDo h1,
 .recentWork h1,
-.collab h1 {
+.collab h1,
+.collab button span {
   font-family: "Staatliches", cursive;
 }
 
@@ -21,6 +24,7 @@
   font-family: "Bubblegum Sans", cursive;
 }
 
+/* Fonts size */
 .whatIDo h1,
 .recentWork h1,
 .collab h1 {
@@ -33,8 +37,13 @@ h2 {
   font-size: 5rem;
 }
 
-.title {
-  font-size: 2.5em;
+.menu span {
+  font-size: 4rem;
+}
+
+.title,
+.navbar h3 {
+  font-size: 2.5rem;
 }
 
 .aboutMe p,
@@ -67,23 +76,59 @@ h2 {
   padding-top: 3em;
 }
 
+.navbar h3 {
+  margin-left: 0.3em;
+}
+
+.menu span {
+  margin-left: 0.2em;
+}
+
+/* Navbar */
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
 /* Form Styles */
 
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 3px solid #212529;
+}
+
+.form-control:focus {
+  border-color: #212529;
+  box-shadow: none;
+}
+
+.btn {
+  background-color: #212529;
+}
+
 /* Breakpoint */
-@media (max-width: 991.98px) {
+@media (max-width: 1399.98px) {
   .hero h1 {
     font-size: 4rem;
   }
+  .title {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1199.98px) {
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
   .hero h1 {
     font-size: 3rem;
   }
 }
 
+@media (max-width: 767.98px) {
+}
+
 @media (max-width: 575.98px) {
   .hero h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
